@@ -1,11 +1,12 @@
 {
   "name": "embed-visualizer",
-  "author": "leovoel",
+  "author": "matmen",
   "license": "MIT",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://leovoel.github.io/embed-visualizer/",
+  "homepage": "https://matmen.github.io/embed-visualizer/",
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "react-scripts": "0.8.5",
     "rimraf": "^2.5.4"
   },
@@ -25,6 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+	"deploy": "gh-pages -d build",
     "postbuild": "rimraf build/**/*.map asset build/asset-manifest.json",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
