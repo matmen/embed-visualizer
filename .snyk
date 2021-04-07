@@ -8,3 +8,5 @@ patch:
         patched: '2021-04-07T09:43:05.659Z'
     - react-color > reactcss > lodash:
         patched: '2021-04-07T09:43:05.659Z'
+    - snyk > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2021-04-07T09:44:50.605Z'
